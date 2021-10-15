@@ -1,0 +1,28 @@
+---
+title: "assign-1"
+author: "Lyubava Erko"
+date: "15/10/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## R Markdown
+
+Lyubava Erko
+
+**University of Victoria**
+
+*Blue*
+
+```{r}
+x = c(1,2,3)
+y = c(3,4,5)
+
+data <- data.frame(x,y)
+
+write.csv(data, here("./data/student-data.csv"))
+```
